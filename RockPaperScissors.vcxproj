@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Moves.cpp" />
     <ClCompile Include="RockPaperScissors.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Moves.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
