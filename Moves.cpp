@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include <string>
 #include <cmath>
-#include <iostream>
 
 std::string Moves::getMove() {
 	int random = rand() % 3 + 1;

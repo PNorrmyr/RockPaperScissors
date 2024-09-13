@@ -1,11 +1,15 @@
 #include <iostream>
 #include "Moves.h"
 #include <string>
+#include "Player.h"
+#include <time.h>
 
 int main()
 {
-    Moves moves;
+    srand(time(NULL));
 
-    std::cout << moves.getMove() << std::endl;
+    Player p1("Philip");
+
+    std::cout << p1.playMove() << std::endl;
 }
 
